@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProfileActivity">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:background="#FFFFFF"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="222dp">
+        <include
+            android:id="@+id/toolbarmenu"
+            layout="@layout/toolbar" />
+            <LinearLayout
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <TextView
+                    android:text="PROFILE"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:typeface="sans"
+                    android:textStyle="bold"
+                    android:paddingBottom="50dp"
+                    android:gravity="center"/>
+                    <ImageView
+                        android:layout_width="206dp"
+                        android:layout_height="216dp"
+                        android:src="@drawable/profile"
+                        android:layout_gravity="center"/>
+                    <TextView
+                        android:paddingTop="20dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="NIM   : 00000019949"
+                        android:gravity="center"
+                        android:typeface="sans" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Nama  : Vanessa Ardelia"
+                        android:gravity="center"
+                        android:typeface="sans" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Kelas : DL"
+                        android:gravity="center"
+                        android:typeface="sans" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:paddingTop="10dp">
+                    <TextView
+                        android:text="Referensi: "
+                        android:textStyle="bold"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:typeface="sans"
+                        android:layout_marginLeft="5dp"
+                        android:gravity="center"/>
+                    <TextView
+                        android:text="Youtube (paling banyak)"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:typeface="sans"
+                        android:layout_marginLeft="5dp"
+                        android:gravity="center"/>
+                    <TextView
+                        android:text="Website (banyak juga)"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:typeface="sans"
+                        android:layout_marginLeft="5dp"
+                        android:gravity="center"/>
+                    <TextView
+                        android:text="Android Developer (haleluya)"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:typeface="sans"
+                        android:layout_marginLeft="5dp"
+                        android:gravity="center"/>
+                    <TextView
+                        android:text="Alkitab :)) sambil berdoa biar ditolong tuhan"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:typeface="sans"
+                        android:layout_marginLeft="5dp"
+                        android:gravity="center"/>
+                </LinearLayout>
+            </LinearLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

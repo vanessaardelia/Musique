@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/myprofile"
+        android:title="Profile Akuu Nih"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/asc"
+        android:title="Sort Ascending"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/dsc"
+        android:title="Sort Descending"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/logout"
+        android:title="Logout"
+        app:showAsAction="never" />
+</menu>
